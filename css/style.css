@@ -15,3 +15,63 @@
     height:100%;
     margin: 0 auto;
 }
+
+h2 {
+    padding-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+.input-button-box {
+    height: 200px;
+    background-color: white;
+
+}
+
+.inputs-box{
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.buttons-box{
+    height: 40%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons-box button{
+    margin: 0 10px;
+}
+
+h3 {
+    text-transform: uppercase;
+
+}
+
+.biglietto{
+    height: 250px;
+    background-color: white;
+}
+
+.table{
+
+    display: flex;
+}
+
+.table-left {
+    width: 25%;
+    height: 80%;
+    background-color: #808080;
+}
+
+.table-right {
+    width: 75%;
+}
+
+.table-right table {
+    width: 100%;
+}
