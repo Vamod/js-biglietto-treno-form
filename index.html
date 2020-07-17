@@ -13,38 +13,36 @@
             <h2>calcola il prezzo del tuo biglietto</h2>
             <div class="input-button-box">
                 <div class="inputs-box">
-                    <div class="nome-cognome">
-                        <h4>Nome e Cognome</h4>
-                        <input type="text" name="" value="">
+                    <div class="input-box">
+                        <label for="nome">Nome Cognome</label>
+                        <input id="nome" type="text" name="nome" value="nome" placeholder="Inserisci il tuo nome">
                     </div>
-                    <div class="km">
-                        <h4>Km da percorrere</h4>
-                        <input type="number" name="" value="">
+                    <div class="input-box">
+                        <label for="km">Km da percorrere</label>
+                        <input id="km" type="number" name="" value="" placeholder="Inserisci i km">
                     </div>
-                    <div class="eta">
-                        <h4>Fascia d'età</h4>
-                        <select name="eta" id="eta">
-                           <option value="">Minorenne</option>
-                           <option value="">Maggiorenne</option>
-                           <option value="">Over 65</option>
+                    <div class="input-box">
+                        <label for="fascia-eta">Fascia d'età</label>
+                        <select id="fascia-eta" name="eta">
+                           <option value="minorenne">Minorenne</option>
+                           <option value="maggiorenne">Maggiorenne</option>
+                           <option value="over">Over 65</option>
                         </select>
 
                     </div>
                 </div>
                 <div class="buttons-box">
-                    <button type="button" name="button">Genera</button>
-                    <button type="button" name="button">Annulla</button>
+                    <button id="genera" type="button" name="button">Genera</button>
+                    <button id="annulla" type="button" name="button">Annulla</button>
                 </div>
             </div>
             <h2>il Tuo biglietto</h2>
-            <div class="biglietto">
-                <h3>dettaglio passeggeri</h3>
+            <div id="biglietto" class="hidden">
+                <h3>Dettaglio Passeggeri</h3>
                 <div class="table">
                     <div class="table-left">
-                        <h3>Nome passeggero</h3>
-                        <div id="nome-passeggero">
-                            Pippo
-                        </div>
+                        <h3>NOME PASSEGGERO</h3>
+                        <h3 id="nome-passeggero"></h3>
                     </div>
                     <div class="table-right">
                         <table>
@@ -55,17 +53,14 @@
                                 <th>Costo biglietto</th>
                             </tr>
                             <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
+                                <td><span id="offerta"></span> </td>
+                                <td><span id="carrozza"></span> </td>
+                                <td><span id="codice-cp"></span> </td>
+                                <td><span id="costo"></span> </td>
                             </tr>
-
                         </table>
                     </div>
-
                 </div>
-
             </div>
 
 

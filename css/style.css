@@ -52,26 +52,46 @@ h3 {
 
 }
 
-.biglietto{
-    height: 250px;
+#biglietto{
+    padding: 20px;
     background-color: white;
 }
 
 .table{
-
     display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 .table-left {
     width: 25%;
-    height: 80%;
+    padding: 20px;
     background-color: #808080;
 }
 
 .table-right {
     width: 75%;
+    height: 100%;
+
+    text-align: left;
 }
 
 .table-right table {
     width: 100%;
+
+}
+
+.table-right table th,
+.table-right table td{
+    padding: 20px;
+}
+
+.hidden {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.show {
+    opacity: 1;
+    transition: 0.3s;
 }
