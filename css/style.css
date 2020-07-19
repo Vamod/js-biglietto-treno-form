@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .mega-container{
     width: 100vw;
     height: 100vh;
@@ -16,6 +20,7 @@
     margin: 0 auto;
 }
 
+h1,
 h2 {
     padding-top: 20px;
     text-transform: uppercase;
@@ -25,6 +30,9 @@ h2 {
 
 .input-button-box {
     height: 200px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 23px 0px rgba(0,0,0,0.75);
     background-color: white;
 
 }
@@ -36,6 +44,38 @@ h2 {
     align-items: center;
 }
 
+.input-box{
+    display: flex;
+    flex-direction: column;
+    color: #b91450;
+    text-align: center;
+}
+
+.input-box input,
+.input-box select {
+    margin-top: 10px;
+    color: black;
+    font-size: 14px;
+    text-align: center;
+    padding: 4px 0;
+    border-radius: 4px;
+    border-color: #b91450;
+}
+
+#nome:hover {
+    background-color: #b91450;
+}
+
+#km:hover {
+    background-color: #b91450;
+}
+
+#fascia-eta:hover {
+    background-color: #b91450;
+}
+
+
+
 .buttons-box{
     height: 40%;
     display:flex;
@@ -45,6 +85,12 @@ h2 {
 
 .buttons-box button{
     margin: 0 10px;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 4px;
+    border-color: #b91450;
+    color: #b91450;
 }
 
 h3 {
@@ -83,7 +129,7 @@ h3 {
 
 .table-right table th,
 .table-right table td{
-    padding: 20px;
+    padding: 30px;
 }
 
 .hidden {

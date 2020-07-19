@@ -1,6 +1,6 @@
-//far comparire il biglietto
+//per prendere oggetto genera
 var genera = document.getElementById('genera');
-
+//far comparire il biglietto
 genera.addEventListener('click',
     function(){
         // per mostrare il biglietto con la classe show
